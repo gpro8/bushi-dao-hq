@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ja" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BushiDAO</title>
+  <meta name="description" content="BushiDAO — 義とは、為すべきことを為すこと。">
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="./css/site.css">
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("bushi.theme");
+        if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t);
+      } catch (e) {}
+    })();
+  </script>
+  <script src="./js/site.js" defer></script>
+</head>
+<body>
+  <div class="draft">
+    <span data-ja>下書き · コミュニティ確認用 · まだ bushi.dao / IPFS ではない</span>
+    <span data-en class="hidden">DRAFT · community preview · not bushi.dao / IPFS yet</span>
+  </div>
+
+  <header class="chrome">
+    <div class="wrap nav">
+      <a class="brand" href="#dojo" aria-label="BushiDAO">
+        <img class="brand-mark" src="./assets/hq-wordmark.png" width="180" height="107" alt="BushiDAO">
+      </a>
+      <nav class="nav-links" aria-label="page">
+        <a href="#dojo"><span data-ja>道場</span><span data-en class="hidden">Dojo</span></a>
+        <a href="#start"><span data-ja>はじめ方</span><span data-en class="hidden">Start</span></a>
+        <a href="#places"><span data-ja>いま動いている場</span><span data-en class="hidden">Places</span></a>
+      </nav>
+      <div class="tools">
+        <button class="ghost" id="lang-btn" type="button">EN</button>
+        <button class="ghost" id="theme-btn" type="button" title="陰 / 陽">陰</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div>
+        <p class="kicker">BUSHIDO 2.0</p>
+        <h1 data-ja>義とは、為すべきことを為すこと。</h1>
+        <h1 data-en class="hidden">Righteousness is found in doing what must be done.</h1>
+        <p class="lede" data-ja>
+          知識も技術も、今は誰でも手に入る。だからこそ、どんな価値観で動くかが問われる。
+          BushiDAO は、武士道をいまの生活の哲学として扱う道場です。Web3 は道具。目的は人が集まり、動き、何かを残すこと。
+        </p>
+        <p class="lede hidden" data-en>
+          Knowledge is cheap now. How you act is not. BushiDAO is a dojo that treats Bushido as a way to live, not a costume. Web3 is a tool. The point is people gathering, moving, and leaving a record.
+        </p>
+        <div class="cta-row">
+          <a class="btn" href="#start">
+            <span data-ja>おもしろそう、で十分</span>
+            <span data-en class="hidden">Curious is enough</span>
+          </a>
+          <a class="btn sec" href="https://gpro8.github.io/bushi-bukan-site/" target="_blank" rel="noopener noreferrer">
+            <span data-ja>武鑑を見る</span>
+            <span data-en class="hidden">See 武鑑</span>
+          </a>
+        </div>
+      </div>
+      <img class="hero-art" src="./assets/bo.png" width="160" height="216" alt="BO">
+    </section>
+
+    <section id="dojo">
+      <h2 data-ja>道場であること</h2>
+      <h2 data-en class="hidden">A dojo</h2>
+      <p class="prose" data-ja>
+        柔道も茶道も、技の先に人格がある。武士道も同じで、七つの徳は過去の飾りではない。
+        刀や身分ではなく、スキルと貢献と、残る記録。主君への忠義ではなく、この場への自発。名誉ある死ではなく、義ある行いの記録。
+      </p>
+      <p class="prose hidden" data-en>
+        Martial ways and cultural arts in Japan all ask how to live, not only how to perform. Bushido here is the same. Not sword and rank: skill, contribution, a record. Not loyalty to a lord: a voluntary vow to this community. Not an honorable death: a record of right action.
+      </p>
+      <p class="prose" data-ja>
+        理念が武士道。記録がブロックチェーン。実践の場が DAO。誰でも入れる。ゼロからでいい。師も学ぶ。
+      </p>
+      <p class="prose hidden" data-en>
+        Bushido is the idea. Blockchain is the record. The DAO is where it is lived. Anyone can walk in. Everyone starts from zero. Teachers learn too.
+      </p>
+      <ul class="virtues">
+        <li><strong>義</strong><span data-ja>為すべきことを為す</span><span data-en class="hidden">do what must be done</span></li>
+        <li><strong>勇</strong><span data-ja>問う、試す</span><span data-en class="hidden">ask, try</span></li>
+        <li><strong>仁</strong><span data-ja>人を助ける</span><span data-en class="hidden">help people</span></li>
+        <li><strong>礼</strong><span data-ja>丁寧に返す</span><span data-en class="hidden">answer with care</span></li>
+        <li><strong>誠</strong><span data-ja>嘘をつかない</span><span data-en class="hidden">no pose</span></li>
+        <li><strong>名</strong><span data-ja>行いで名を残す</span><span data-en class="hidden">name from deeds</span></li>
+        <li><strong>忠</strong><span data-ja>場への自発</span><span data-en class="hidden">vow to the field</span></li>
+      </ul>
+    </section>
+
+    <section id="start">
+      <h2 data-ja>はじめ方</h2>
+      <h2 data-en class="hidden">How to start</h2>
+      <ol class="steps">
+        <li data-ja>Discord の道場に来る。コミュニティは日本語。</li>
+        <li data-en class="hidden">Come to the Discord dojo. Community voice is Japanese.</li>
+        <li data-ja>話してみる。質問でいい。面白そう、で入口に立っている。</li>
+        <li data-en class="hidden">Talk. A question is enough. If it feels interesting, you are already at the door.</li>
+        <li data-ja>残したい人はウォレットを一つつなぐ。検定、武鑑、助太刀はそれから。</li>
+        <li data-en class="hidden">If you want a lasting record, link one wallet. Exam, 武鑑, and 助太刀 come after that.</li>
+      </ol>
+    </section>
+
+    <section id="places">
+      <h2 data-ja>いま動いている場</h2>
+      <h2 data-en class="hidden">What is live</h2>
+      <div class="doors">
+        <a class="door" href="https://gpro8.github.io/bushi-bukan-site/" target="_blank" rel="noopener noreferrer">
+          <img class="door-mark-yang" src="./assets/door-bukan.png" width="72" height="72" alt="">
+          <img class="door-mark-yin" src="./assets/door-bukan-dark.png" width="72" height="72" alt="">
+          <h3>武鑑</h3>
+          <p data-ja>義の名刺。ウォレットを入れると、ここに残る。</p>
+          <p data-en class="hidden">A calling card for Gi. Add a wallet and it stays here.</p>
+        </a>
+        <a class="door" href="https://gpro8.github.io/sukedachi-site/" target="_blank" rel="noopener noreferrer">
+          <img src="./assets/door-hata.png" width="72" height="72" alt="">
+          <h3>助太刀</h3>
+          <p data-ja>仲間の旗に、JPYC で加勢する場。</p>
+          <p data-en class="hidden">Stand with a comrade’s flag, in JPYC.</p>
+        </a>
+        <a class="door" href="https://gpro8.github.io/bushi-collection-site/" target="_blank" rel="noopener noreferrer">
+          <img src="./assets/door-collection.svg" width="72" height="72" alt="">
+          <h3><span data-ja>武士コレ</span><span data-en class="hidden">Bushi Collection</span></h3>
+          <p data-ja>初ロットはまだ。見るだけでもどうぞ。</p>
+          <p data-en class="hidden">First lot not open yet. Looking is fine.</p>
+        </a>
+        <a class="door" href="https://bo-108-bonno.giuliav6.chatgpt.site/" target="_blank" rel="noopener noreferrer">
+          <h3><span data-ja>108の煩悩</span><span data-en class="hidden">Study</span></h3>
+          <p data-ja>Web3 を学ぶ場。投資の助言ではない。</p>
+          <p data-en class="hidden">A place to study Web3. Not investment advice.</p>
+        </a>
+      </div>
+      <p class="muted" data-ja style="margin-top:1rem">WEB3検定の合格は武鑑に残る。案内は Discord から。</p>
+      <p class="muted hidden" data-en style="margin-top:1rem">A WEB3検定 pass stays on 武鑑. Start from Discord.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p data-ja>bushi.dao · 下書き。Whitepaper v1 の外向けの章に合わせた。採点式やスラッシュコマンドはここに置かない。</p>
+      <p data-en class="hidden">bushi.dao · draft. Voice from Whitepaper v1 for newcomers. Scoring formulas and slash commands stay off this page.</p>
+      <p><a href="https://x.com/BushiDAO_JP" target="_blank" rel="noopener noreferrer">x.com/BushiDAO_JP</a></p>
+    </div>
+  </footer>
+</body>
+</html>
