@@ -167,7 +167,7 @@ h2 {
   .doors { grid-template-columns: 1fr 1fr; }
 }
 @media (min-width: 900px) {
-  .doors { grid-template-columns: 1fr 1fr 1fr 1fr; }
+  .doors { grid-template-columns: 1fr 1fr 1fr; }
 }
 .door {
   background: var(--card);

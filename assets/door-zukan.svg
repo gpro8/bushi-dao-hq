@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!-- 相棒図鑑 door: three catalog cards. Not 武鑑 ring, not 鍔. -->
+  <g transform="translate(512 512)">
+    <g transform="rotate(-8) translate(-210,-40)">
+      <rect x="-150" y="-200" width="300" height="400" rx="28" fill="#F4F1EA" stroke="#1C4E73" stroke-width="16"/>
+      <rect x="-110" y="-150" width="220" height="160" rx="12" fill="#C4B8A4"/>
+      <rect x="-90" y="40" width="180" height="16" rx="4" fill="#1C4E73" opacity="0.45"/>
+      <rect x="-90" y="80" width="130" height="12" rx="4" fill="#1C4E73" opacity="0.28"/>
+    </g>
+    <g transform="rotate(8) translate(210,-20)">
+      <rect x="-150" y="-200" width="300" height="400" rx="28" fill="#F4F1EA" stroke="#1C4E73" stroke-width="16"/>
+      <rect x="-110" y="-150" width="220" height="160" rx="12" fill="#C4B8A4"/>
+      <rect x="-90" y="40" width="180" height="16" rx="4" fill="#1C4E73" opacity="0.45"/>
+      <rect x="-90" y="80" width="130" height="12" rx="4" fill="#1C4E73" opacity="0.28"/>
+    </g>
+    <g>
+      <rect x="-150" y="-220" width="300" height="420" rx="28" fill="#F4F1EA" stroke="#1C4E73" stroke-width="18"/>
+      <rect x="-110" y="-160" width="220" height="170" rx="12" fill="#1C4E73"/>
+      <rect x="-90" y="40" width="180" height="18" rx="4" fill="#1C4E73"/>
+      <rect x="-90" y="84" width="140" height="12" rx="4" fill="#1C4E73" opacity="0.4"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!-- 相棒あそび door: title-screen diamond. 漆黒 disc so it sits like 鍔. -->
+  <g transform="translate(512 512)">
+    <circle r="300" fill="#1B1916"/>
+    <polygon points="0,-210 210,0 0,210 -210,0" fill="none" stroke="#5B2C6F" stroke-width="28"/>
+    <polygon points="0,-168 168,0 0,168 -168,0" fill="none" stroke="#F8B500" stroke-width="14"/>
+  </g>
+</svg>
