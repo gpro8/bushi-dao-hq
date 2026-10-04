@@ -43,16 +43,8 @@ a:hover { text-decoration: underline; }
 
 .wrap { max-width: 880px; margin: 0 auto; padding: 0 18px; }
 
-.draft {
-  position: sticky; top: 0; z-index: 20;
-  background: var(--kaba); color: #fff;
-  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
-  font-size: 12px; letter-spacing: 0.08em;
-  text-align: center; padding: 6px 12px;
-}
-
 header.chrome {
-  position: sticky; top: 28px; z-index: 10;
+  position: sticky; top: 0; z-index: 10;
   background: var(--chrome);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--line);

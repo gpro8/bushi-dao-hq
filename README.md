@@ -1,7 +1,7 @@
-# BushiDAO HQ — community preview
+# BushiDAO HQ
 
-**Not** bushi.dao. **Not** IPFS. `noindex`.
+Source for bushi.dao (UD / IPFS pack). One page: `index.html` at root so the URL is `/`, not `/index.html`.
 
-Live: https://gpro8.github.io/bushi-dao-hq/
+GH Pages preview (may lag until push): https://gpro8.github.io/bushi-dao-hq/
 
-Feedback welcome. Finalize (UD / IPFS) only after Angotaro GO.
+Pack (no `.git`): `/Users/gpro/bushi-dao-ipfs-upload/`
